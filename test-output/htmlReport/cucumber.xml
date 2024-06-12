@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="13.062" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Anasayfa fonksiyonlari" name="Footer" time="13">
+<failure type="org.openqa.selenium.ElementClickInterceptedException" message="element click intercepted: Element &lt;a href=&quot;/lokasyon&quot; class=&quot;footer-page-car footer-all-suppliers&quot; cms-key=&quot;footer_car_2&quot;&gt;...&lt;/a&gt; is not clickable at point (151, 369). Other element would receive the click: &lt;div class=&quot;gs_trigger_discount_popup_modal&quot; onclick=&quot;removeTriggerDiscountCampaignPopupGrowthSuite(event)&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=125.0.6422.141)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4.1', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8572b757d78cb0a23d254f204d9bb1c4, clickElement {id=f.0465B6258518304F91B5031A61D5DB70.d.386684BC7CD14CECB411A9A711243635.e.107}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: /var/folders/yh/r9f_6n9906b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49462}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49462/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (8572b757d78cb0a23d254f204d9bb1c4)] -&gt; xpath: //div[@class='flex-1 tablet:text-center'][1]//a]
+Session ID: 8572b757d78cb0a23d254f204d9bb1c4">
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/lokasyon" class="footer-page-car footer-all-suppliers" cms-key="footer_car_2">...</a> is not clickable at point (151, 369). Other element would receive the click: <div class="gs_trigger_discount_popup_modal" onclick="removeTriggerDiscountCampaignPopupGrowthSuite(event)">...</div>
+  (Session info: chrome=125.0.6422.141)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4.1', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8572b757d78cb0a23d254f204d9bb1c4, clickElement {id=f.0465B6258518304F91B5031A61D5DB70.d.386684BC7CD14CECB411A9A711243635.e.107}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: /var/folders/yh/r9f_6n9906b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49462}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49462/devtoo..., se:cdpVersion: 125.0.6422.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (8572b757d78cb0a23d254f204d9bb1c4)] -> xpath: //div[@class='flex-1 tablet:text-center'][1]//a]
+Session ID: 8572b757d78cb0a23d254f204d9bb1c4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at stepdefinitions.AnasayfaStepDef.aracKiralamaAltKisimlarinaTiklarVeGecisDogrulanir(AnasayfaStepDef.java:143)
+	at ✽.arac kiralama alt kisimlarina tiklar ve gecis dogrulanir(file:///Users/fatihyilmaz/IdeaProjects/Yolcu360WebApp/src/test/resources/features/anasayfa.feature:36)
+]]>
+</failure>
+<system-out><![CDATA[
+Given yolcu360 sitesine gidilir.............................................passed
+And arac kiralama gorur.....................................................passed
+And arac kiralama alt kisimlarina tiklar ve gecis dogrulanir................failed
+And populer lokasyonlar gorur...............................................skipped
+And populer lokasyonlar alt kisimlarina tiklar ve gecis dogrulanir..........skipped
+And populer arac kiralama sirketleri gorur..................................skipped
+And populer arac kiralama sirketleri alt kisimlarina tiklar ve gecis dogrulanir.skipped
+And ucak bileti gorur.......................................................skipped
+And ucak bileti alt kisimlarina tiklar ve gecis dogrulanir..................skipped
+And kurumsal & destek gorur.................................................skipped
+And kurumsal & destek alt kisimlarina tiklar ve gecis dogrulanir............skipped
+And mobil uygulamamız gorur.................................................skipped
+And mobil uygulama alt kisimlarina tiklar ve gecis dogrulanir...............skipped
+]]></system-out>
+</testcase>
+</testsuite>
